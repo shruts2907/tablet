@@ -1,0 +1,344 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" />
+<meta name="description" content="Shrutika's Tablet inc test">
+<meta name = "keywords" content = "SHRUTIKA , SHRUTIKA THAKUR,  SHRUTIKA THAKUR RIT, Shrutika RIT">
+<meta name = "author" content = "SHRUTIKA THAKUR"/>
+
+<title>Index Page</title>
+<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" href="ie7-and-down.css" />
+	<script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('aside');
+   </script>
+<![endif]-->
+ <!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="ie8-and-down.css" />
+	<script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('aside');
+   </script>
+<![endif]-->
+
+<style>
+/*========== media query for smaller screen =============*/
+@media only screen and (max-width: 561px){
+	
+
+	div.search{
+		float: right;
+		margin-left: 0;
+	}
+
+   
+    nav{
+    border: 2px solid orange;/* remove code testing purpose */
+    }
+    nav ul{
+		padding-left: 0;
+        margin-left: 0;
+        border-bottom: 1px solid gray;
+        width: auto;
+	}
+	 nav li{
+		list-style: none;
+        margin: 0;
+        padding: 0.25em;
+        border-top: 1px solid gray;
+        display:block;
+	}
+	
+	div.aside-content{
+		width: 8em;
+	}
+ }
+ 
+ @media only screen and (max-width: 395px){
+	
+
+	/*for testing purpose */
+	header{
+		height: auto;
+		background:yellow;
+		
+	}
+	div.search{
+		float: left;
+		margin-left: 0;
+	}
+   
+   
+    nav{
+    border: 2px solid yellow;
+	margin-top: 5px;
+    }
+    nav ul{
+		padding-left: 0;
+        margin-left: 0;
+        border-bottom: 1px solid gray;
+        width: auto;
+	}
+	 nav li{
+		list-style: none;
+        margin: 0;
+        padding: 0.25em;
+        border-top: 1px solid gray;
+        display:block;
+	}
+	
+	aside{
+		clear:both;
+		width: 100%;
+	}
+	
+	div.aside-content{
+		width: 10em;
+	}
+ }
+/*============end of media query ======================*/
+
+body{
+	font-family: Verdana ,Arial,sans-serif;
+}
+/*-----------header css -------------------*/
+header{
+	background-color:#808000;
+	font-family: Arial, sans-serif;
+	font-size:11pt;
+	border-bottom: 3px solid black;
+	margin-top:0;
+	height:8em;
+	z-index: -1;
+}
+.title{
+	margin-left: 5px;
+	width: 25%;
+	float:left;
+	color:#fff;
+}
+.search{
+	float:left;
+	margin-left: 35%;
+		margin-top: 1em;
+
+}
+
+/*-----------------menu css---------------*/
+nav{
+	margin-top: -2em;
+	z-index: 1;
+	margin-left:0;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	margin-left: 0.3em;
+	padding: 0.5em 1em;
+	color: #fff;
+	background-color: #000080;
+	font-family: Arial,san-serif;
+	display: inline;
+
+}
+/*--------------main content css------------------*/
+.left{
+	margin-left:0;
+	float:left;
+	width: 55%;
+}
+.main-content{
+	padding: 0.5em;
+	border: 1px solid #ccc;
+	margin-left:10%;
+	height: 100%;
+	border-radius: 4px;
+	float:left;
+	box-shadow: 4px 4px 2px #888888;
+	-moz-box-shadow: 4px 4px 2px #888888;
+	-webkit-box-shadow: 4px 4px 2px #888888;
+	-ms-box-shadow: 4px 4px 2px #888888;
+}
+.left-box{
+	margin-top:2%;
+	margin-left:-5%;
+	border: 1px solid #ccc;
+	width:8em;
+	float:left;
+	border-radius: 4px ;
+	background-color: #a6a6a6 ;
+	background: -webkit-linear-gradient(top, #a6a6a6, #808000 );
+	background: -moz-linear-gradient(top, #a6a6a6, #808000 );
+    background: -ms-linear-gradient(top, #a6a6a6, #808000 );
+    background: -o-linear-gradient(top,  #a6a6a6 , #808000);
+	color: #fff;
+	height: 75%;
+	padding-left: 0;
+}
+.date{
+	font-size: 22pt;
+	font-family: Verdana;
+	margin-left: 35px;
+	
+}
+.sixtn{
+	font-size: 45pt;
+	font-family:Arial;
+	margin-left: 25px;
+}
+.right-box{
+	float:right;
+	margin-top: 45%;
+	margin-right: -5%;
+	border: 1px solid #ccc ;
+	font-size:small;
+	font-style: italic;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	background-color: #7070f0;
+	width:150px;
+	color:#fff;
+	box-shadow: 4px 4px 2px #888888;
+	-moz-box-shadow: 4px 4px 2px #888888;
+	-webkit-box-shadow: 4px 4px 2px #888888;
+	-ms-box-shadow: 4px 4px 2px #888888;
+}
+.clear{
+	clear:none;
+}
+/*-------------css for right side ----------*/
+
+aside{
+	float:left;
+	margin-left:5%;
+	width: 25%;
+}
+.headlines{
+	font-family: arial, sans-serif;
+	color: #fff;
+	font-size: 11pt;
+	background-color:#7070f0;
+	padding: 0.3em 0.5em;
+	width: 150px;
+	border-radius: 4px;
+	position:absolute;
+	margin-left:-35px;
+}
+.aside-content{
+	background-color: #000080;
+	color: #fff;
+	padding:0.8em;
+	position:relative;
+}
+.para{
+	margin-top: 55px;
+}
+
+/*---css for hidding place holder--------*/
+[placeholder]:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+[placeholder]:focus::-moz-placeholder{color: transparent;} /* firefox 19+ */
+input[type="text"]:-ms-input-placeholder{color: transparent;}
+
+</style>
+
+<script>
+	//script for showing focusing
+	function focusFun(which)
+	{
+		which.style.background="#fff";
+	}
+</script>
+</head>
+<body>
+<div class="container">
+	<header>
+		<div class="title">
+			<h1>CATS AHOY!</h1>
+		</div>
+		<div class="search">
+			<input type="search" name="catSearch" onfocus="focusFun(this);" placeholder="search" style="background: #ccc;">
+			<input type="submit" value="GO!">
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li>BLOG</li>
+			<li>STORE</li>
+			<li>JOBS</li>
+			<li>CONTACT</li>
+		</ul>
+	</nav>
+	<section class="content">
+		<div class="left">
+			<div class="main-content">
+				<div class="left-box">
+					<p><span class="sixtn">16</span><br/>
+					<span class="date">mar<span></p>
+				</div>
+				<!-- end of div left box-->
+				<div class="right-box">
+					<img src=" http://bit.ly/zzsCXU" alt="so cute Cat image" title="So cute!" height="150" width="151"/>
+					<br/>
+					So Cute!
+				</div>
+				<!-- end of div right box -->
+				<p style="font-size: 20pt; font-family: Arial;margin-left: 5px ;"><span style="margin-left: 5px;"> Cutest Ketteh Evah!</span><br/>
+				<span style="font-size: 18pt; margin-left: 5px;">And so much personality, too!</span><br/>
+				<span style="font-size: 12pt;margin-left: 5px;">by Tom Wolfe<span></p>
+				
+				<p class="clear">
+				
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra, velit sagittis auctor tincidunt, eros tellus suscipit metus, non ullamcorper ligula dolor sit amet felis. Etiam sed fringilla metus. Curabitur sed dictum quam. Donec pulvinar, ligula et sagittis auctor, nibh turpis blandit ipsum, nec vulputate est tellus aliquam felis. Aliquam blandit aliquam malesuada. Morbi pretium dui sem, sed adipiscing elit dignissim ut. Aenean nunc lectus, convallis in massa at, consectetur dapibus urna. Nam non urna purus. Pellentesque pellentesque egestas dui. Maecenas elit eros, sodales suscipit sapien id, eleifend semper nulla. Nunc purus arcu, volutpat non fermentum nec, consequat a augue.
+				
+				</p>
+				<p class="clear">
+				Nam porta laoreet sapien a consequat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus at dolor vehicula, sodales magna ac, egestas nulla. Quisque pellentesque, erat quis posuere dictum, magna tortor sagittis diam, ut faucibus odio eros sed leo. Etiam vel sodales massa, quis aliquam nisi. Pellentesque fermentum urna at est pulvinar iaculis. Nullam consectetur luctus aliquet. In at sem porttitor, tincidunt mi vel, tempus arcu. Nulla sodales ipsum nec placerat accumsan. Maecenas ut magna pulvinar, varius est sit amet, varius ipsum. Integer eu imperdiet tortor, vitae fermentum est.
+				</p>
+				<p class="clear">
+				Quisque sed justo non velit sollicitudin porta at vel enim. Nulla cursus lacus turpis, id tincidunt velit blandit nec. Morbi aliquet ante quam, nec pellentesque diam elementum ac. Ut lobortis, tellus sed adipiscing accumsan, tortor metus iaculis ipsum, vel gravida ligula est et enim. Praesent scelerisque risus nibh, et tincidunt nulla dictum non. Curabitur eu placerat est. Etiam quis nunc lectus. Sed quis diam sollicitudin ligula interdum eleifend ac ut mauris. Nullam semper vehicula justo, quis molestie felis. Nullam eu elit nisl. Etiam semper eu urna non viverra. Phasellus in enim lacus. Phasellus nec risus ante. <strong>Lorem ipsum </strong>dolor sit amet, consectetur adipiscing elit. Morbi ultricies fermentum odio sed adipiscing. Nullam id fermentum mauris.
+				</p>
+			</div>
+			<!-- end of div main content -->
+		</div>
+		<!-- end of div left-->
+		<aside>
+			<div class="aside-content">
+				<div class="headlines">
+				NOTICES
+				</div>
+				<p class="para">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend dolor at eros convallis, at sagittis mauris tincidunt. Nunc tincidunt commodo ante, sed volutpat mauris cursus vel. Quisque magna nisl.
+				</p>
+				<div class="headlines">
+				EVENTS
+				</div>
+				<p class="para">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non placerat nulla. Aliquam erat volutpat. Quisque adipiscing nunc lectus, sed pretium quam volutpat sollicitudin. Phasellus euismod iaculis eros, ut mattis neque fermentum vitae. Aliquam erat volutpat. Aliquam ac justo pulvinar, posuere ante non, sollicitudin ligula. Fusce vitae nibh at augue mollis interdum. Quisque tincidunt laoreet.
+
+
+				</p>
+				<div class="headlines">
+				ET CETERA
+				</div>
+				<p class="para">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend dolor at eros convallis, at sagittis mauris tincidunt. Nunc tincidunt commodo ante, sed volutpat mauris cursus vel. Quisque magna nisl.
+				</p>
+			</div>
+		</aside>
+	</section>
+	<!-- end of section -->
+</div>
+<!-- end of div container -->
+
+
+</body>
+</html>
